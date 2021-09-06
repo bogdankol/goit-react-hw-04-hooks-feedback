@@ -1,0 +1,8 @@
+.div {
+    text-align: left;
+    background-color: antiquewhite;
+    padding: 20px 30px;
+    width: 300px;
+    flex-wrap: wrap;
+    height: 400px;
+}

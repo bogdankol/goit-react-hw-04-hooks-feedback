@@ -1,0 +1,28 @@
+.feedbackDiv {
+    display:flex;
+    list-style: none;
+}
+.item {
+    margin-right: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.514);
+    border-radius: 20%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.item:hover, .item:focus {
+    background-color: black;
+    color: white;
+}
+.good {
+    composes: item;
+    background: rgba(0, 128, 0, 0.678);
+}
+.neutral {
+    composes: item;
+    background: rgba(255, 99, 71, 0.541);
+}
+.bad {
+    composes: item;
+    background: rgba(255, 0, 0, 0.521);
+}
